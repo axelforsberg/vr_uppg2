@@ -44,12 +44,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\DragRigidbody.js" />
      <Compile Include="Assets\scripts\OnCamBtn1MouseClick.js" />
      <Compile Include="Assets\scripts\OnCamBtn2MouseClick.js" />
      <Compile Include="Assets\scripts\OnCamBtn3MouseClick.js" />
      <Compile Include="Assets\scripts\OnCamZoomInMouseClick.js" />
      <Compile Include="Assets\scripts\OnCamZoomOutMouseClick.js" />
-     <Compile Include="Assets\scripts\OnFunBtnMouseClick.js" />
+     <Compile Include="Assets\scripts\OnSpawnBtnMouseClick.js" />
+     <Compile Include="Assets\scripts\RotateRigidbody.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
